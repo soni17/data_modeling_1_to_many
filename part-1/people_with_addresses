@@ -1,0 +1,22 @@
+                                                    +--------------+
++-------------+           +-------------+           |  Cities      |
+|  Persons    |           |  Residences |           +--------------+
++-------------+           +-------------+           |  id          |
+|id           |many     1 | id          |           |  province_id |
+|residence_i  +-----------+ city_id     |many      1|  Name        |
+|name         |           | Address     +-----------+  Year founded|
+|age          |           | Year built  |           +--------------+
++-------------+           +-------------+                   |many
+                                                            |
+                                                            |
+                                                            |
+                                                            | 1
+                        +--------------- +           +------+-------+
+                        | Countries      |           |  Provinces   |
+                        +----------------+           +--------------+
+                        | id             |1      many|  id          |
+                        | Name           +-----------+  country_id  |
+                        | Year Founded   |           |  Name        |
+                        | National Anima |           |  Year founded|
+                        +----------------+           +--------------+
+
