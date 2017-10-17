@@ -3,7 +3,7 @@
 |  Persons    |           |  Residences |           +--------------+
 +-------------+           +-------------+           |  id          |
 |id           |many     1 | id          |           |  province_id |
-|residence_i  +-----------+ city_id     |many      1|  Name        |
+|residence_id +-----------+ city_id     |many      1|  Name        |
 |name         |           | Address     +-----------+  Year founded|
 |age          |           | Year built  |           +--------------+
 +-------------+           +-------------+                   |many
